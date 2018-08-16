@@ -1,0 +1,224 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+.stripped-page-container{
+  padding-top: 60px;
+}
+.header{
+  background: #373d49;
+  color: #fff;
+  box-shadow: none;
+  width: 100%;
+  padding: 1px;
+  position: fixed;
+  height: 60px;
+}
+.container{
+  height: calc(100vh - 60px);
+
+  overflow-y: scroll;
+}
+/*******************************************
+                  Header
+********************************************/
+.header-nav * a{
+  color: white;
+  text-decoration: none;
+}
+.header-nav{
+  display: inline-flex;
+  float: left;
+  margin: 8px;
+  box-sizing: border-box;
+}
+.header-nav h1{
+  margin: 0 18px 0 5px;
+  font-size: 20px;
+  line-height: 42px;
+}
+.header-nav ul{
+  display: inline-flex;
+  height: 44px;
+  line-height: 42px;
+  padding: 0;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 0 1px 0;
+  margin: 0 5px 5px 5px;
+}
+.header-nav ul li{
+  padding: 0 16px;
+}
+.header-socials{
+  position: absolute;
+  right: 70px;
+  padding: 0;
+  margin: 0 10px 10px;
+}
+.header-socials ul{
+  line-height: 42px;
+  box-shadow: 0 0 1px 0;
+  display: inline-flex;
+  margin-top: 10px;
+}
+.header-socials ul li{
+  padding: 10px;
+}
+.back-btn{
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 0 1px 0;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+}
+.header-socials ul li a img{
+  height: 20px;
+  display: inline-flex;
+  float: right;
+}
+/********************************************
+                  Sidebar
+*********************************************/
+.aside{
+  width: 200px;
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+  padding: 48px 21px 16px 18px;
+  background: #364050 url(../../../assets/images-page2/bg01.png);
+  float: left;
+}
+.aside * a{
+  color: #d4dde0;
+  text-decoration: none;
+}
+.logo-aside{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+.logo-aside a{
+  display: block;
+  background: #c94663 url(../../../assets/images-page2/bg01.png);
+  padding: 14px 4px;
+  border-radius: 0.2em;
+  text-align: center;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15), 0 0 2px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  color: #fff;
+}
+.nav-aside{
+  margin: 32px 0 0 0;
+  font-size: 14px;
+}
+.nav-aside ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+.nav-aside ul li{
+  border-top: solid 1px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.075);
+  padding: 18px 0 13px 0;
+}
+.nav-aside ul li a{
+  padding: 6px 16px;
+}
+.search{
+  margin-top: 40px;
+}
+form input{
+  display: block;
+  border-radius: 6px;
+  border: solid 1px #ddd;
+  padding: 8px 12px;
+  width: 92%;
+  line-height: 20px;
+}
+.block-aside1{
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.block-aside1 strong{
+  color: #fff;
+}
+.recent-posts ul li, .recent-comments ul li{
+  border-top: solid 1px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.075);
+  padding: 14px 0 7px 0;
+}
+.copyright{
+  text-align: center;
+}
+/***********************************************************
+                          Content
+***********************************************************/
+.content-page-container{
+  float: left;
+  width: calc(100% - 240px);
+  background-color: #e8e8e8;
+}
+.content-page-container-block{
+  margin-left:120px;
+  height: 100%;
+  background: white;
+  border-left: 1px solid rgba(100,100,100, 0.3);
+  padding: 50px 80px 0;
+}
+.content-page-container-block h2{
+  font-size: 42px;
+  line-height: 20px;
+}
+.subtitle {
+  font-size: 30px;
+  margin-top: 0;
+}
+.absolute-info{
+  float: left;
+  margin-top: 130px;
+  margin-left: 10px;
+  width: 75px;
+  overflow: hidden;
+  background: #fff;
+  padding: 24px 16px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  box-shadow: 4px 0 0 0 #fbfbfb, 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+.stats *{
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+}
+.news-block img{
+  width: 100%;
+}
+.page-nav{
+  margin: 50px 0 50px 180px;
+}
+.page-nav a{
+  padding: 12px 15px;
+  margin: 8px;
+  border-radius: 4px;
+  background: rgba(200,200,200, 1);
+  text-decoration: none;
+  color: black;
+}
+.page-nav span{
+  margin: 0 5px;
+}
+.active{
+  background: #374850 !important;
+  color: white !important;
+}
+

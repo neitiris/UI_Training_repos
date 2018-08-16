@@ -1,0 +1,39 @@
+<h1>Welcome God</h1>
+<p>What would you like to do?</p>
+<div class="bigButtons">
+  <button type="button" (click)="createUser()">Create User</button>
+  <button>Delete Marked Users</button>
+  <button>Something Fun Button</button>
+  <button>Something Fun Button</button>
+</div>
+<div class="userTable">
+  <table>
+    <thead>
+    <tr>
+      <th><input class="check-all" type="checkbox"></th>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Company</th>
+      <th>Created</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of usersList">
+      <td><input type="checkbox"></td>
+      <td>{{item.id}}</td>
+      <td>{{item.firstName}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.companyName}}</td>
+      <td>{{item.createdAt}}</td>
+      <td><button class="editCl" (click)="goToDetails(this.item.id)">
+        <i class="fa fa-edit"></i></button></td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+
+  </table>
+
+</div>

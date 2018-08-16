@@ -1,0 +1,57 @@
+li{
+list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.contic{
+  display: flex;
+}
+.leftbarAd{
+  padding: 0 10px 0 10px;
+  width: 14.8%;
+  background: #465c73;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.contentpart{
+  width: 80%;
+  padding-left: 20px;
+  display: flex;
+}
+.leftbarAd h1{
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+}
+.leftbarAd * a{
+  color: chocolate;
+}
+.contentpart{
+  width: 80%;
+  background: mintcream;
+}
+.LeftNav{
+  display: inline-block;
+  padding-left: 15px;
+}
+.LeftNav > ul{
+  padding: 0;
+}
+.LeftNav li > ul > li{
+  display: flex;
+  font-size: 110%;
+}
+.LeftNav > ul > li {
+  width: 100%;
+  border-radius: 4px;
+  margin: 10px 0 10px 0;
+  background: lightgreen;
+  padding: 6px;
+}
+.LeftNav > ul > li > a {
+  color: black;
+  font-weight: bold;
+  font-size: 110%;
+}

@@ -1,0 +1,183 @@
+<div class="page3-container">
+  <div id="content-container">
+
+    <!-- top-nav -->
+    <nav class="top-nav">
+      <div class="centered">
+        <a href="#" class="nav-btn">HOMEPAGE<span></span></a>
+        <ul>
+          <li class="active"><a href="#">home</a></li>
+          <li><span><a href="#">services</a></span></li>
+          <li><span><a href="#">projects</a></span></li>
+          <li><span><a href="#">solutions</a></span></li>
+          <li><span><a href="#">jobs</a></span></li>
+          <li><span><a href="#">blog</a></span></li>
+          <li><span><a href="#">contacts</a></span></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of top-nav -->
+
+    <!-- header -->
+    <header id="header">
+      <div class="header-center">
+        <div class="header-top"></div>
+        <div class="centered">
+          <div class="header-inner">
+            <div class="header-cnt">
+              <h1 id="logo"><a href="#">Simple</a></h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quam ante, egestas tristique consequat ut, pulvinar a ante.
+                Donec commodo eros at felis tempor at porttitor mauris adipisci morbi in velit sapien modo eros at felis te adispicing ulvinar a ante donec commodo eros at felis.
+              </p>
+
+              <a href="#" class="blue-btn">GET STARTED NOW</a>
+            </div>
+            <!-- slider -->
+            <div class="slider-container">
+              <div class="slider">
+                <ul class="slides" *ngFor="let slide of slides">
+                  <li class="{{ slide.class }}"><img src="{{ slide.img }}"></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end of slider -->
+          </div>
+        </div>
+        <div class="header-bottom"></div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main -->
+    <div class="main">
+      <!-- centered -->
+      <div class="centered">
+        <div class="container">
+          <section class="centered-text">
+            <h2>Responsive CSS Template with jQuery Slider</h2>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie condimentum consequat.
+              Nam leo libero, scelerisque tincidunt commodo id, hendrerit vitae orci. Suspendisse eget nibh turpis.
+              Sed at accumsan neque. Praesent purus eros, egestas eu tempus ut, mollis et libero"</p>
+          </section>
+
+          <section class="blog">
+            <div class="content">
+              <img src="../../../assets/images-page3/i-img.png" alt=""  class="alignleft"/>
+              <div class="cnt">
+                <h3>We Guarantee Commitment &amp; Quality</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie condimentum consequat. Nam leo libero, scelerisque tincidunt commodo id, hendrerit vitae orci. Suspendisse eget nibh turpis. Sed at accumsan neque. Praesent purus eros, egestas eu temp</p>
+                <ul>
+                  <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></li>
+                  <li><a href="#">Cras molestie condimentum consequat. </a></li>
+                  <li><a href="#">Nam leo libero, scelerisque tincidunt commodo id</a></li>
+                  <li><a href="#">Dae molestie condimentum consequat dolor</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- sidebar -->
+            <aside class="sidebar">
+              <div class="widget">
+                <h3>Latest Blog Posts</h3>
+                <ul>
+                  <li>
+                    <div class="img-holder">
+                      <a href="#"><img src="../../../assets/images-page3/post-img.png" alt="" /></a>
+                    </div>
+
+                    <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <em class="mobile">
+                      idunt commodo id, hendrerit vitae orci. Suspendisse eget nibh turpis.
+                      Sed at accumsan neque praesent purus </em><span>02.02.2012</span></a> </p>
+                  </li>
+                  <li>
+                    <div class="img-holder">
+                      <a href="#"><img src="../../../assets/images-page3/post-img2.png" alt="" /></a>
+                    </div>
+                    <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <em class="mobile">
+                      idunt commodo id, hendrerit vitae orci. Suspendisse eget nibh turpis.
+                      Sed at accumsan neque praesent purus </em><span>01.02.2012</span></a> </p>
+                  </li>
+                  <li>
+                    <div class="img-holder">
+                      <a href="#"><img src="../../../assets/images-page3/post-img3.png" alt="" /></a>
+                    </div>
+                    <p>
+                      <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <em class="mobile">
+                        idunt commodo id, hendrerit vitae orci. Suspendisse eget nibh turpis.
+                        Sed at accumsan neque praesent purus </em>
+                        <span>30.01.2012</span></a></p>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="view">View All</a>
+              <!-- end of widget -->
+            </aside>
+            <!-- end of sidebar -->
+          </section>
+
+          <section class="cols">
+            <div class="col" *ngFor="let column of columns">
+              <h3>{{ column.title }}</h3>
+              <img src="{{ column.img }}" class="alignleft"/>
+              <div class="col-cnt">
+                <p>{{ column.text }}</p>
+              </div>
+              <a href="#" class="view">View More</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- end of main -->
+  </div>
+
+
+  <!-- footer -->
+  <div  id="footer">
+    <div class="footer-cols">
+      <div class="centered">
+        <div class="col">
+          <h3><a href="#">Solutions</a></h3>
+          <div class="col-cnt">
+            <ul>
+              <li><a href="#">Lorem lipsum dolor </a></li>
+              <li><a href="#">Ame tleo libero dolor</a></li>
+              <li><a href="#">Aidpispicing lipsum </a></li>
+              <li><a href="#">Commodo id amet </a></li>
+              <li><a href="#">Sectetur amet au car </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col" *ngFor="let column of columnsArray">
+          <h3><a href="{{ column.href }}">{{ column.title }}</a></h3>
+          <div class="col-cnt">
+            <ul *ngFor="let link of links">
+              <li><a href="{{ link.href }}">{{ link.text }} </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="centered">
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <p class="copy">&copy; Copyright 2012<span>|</span>Sitename. Design by <a href="#" target="_blank">ChocoTemplates</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- end of footer -->
+
+</div>
